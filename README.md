@@ -5,6 +5,7 @@ Supercomputing resources at SUTD - [Main Website](https://computing.sutd.edu.sg/
 
 **GPU Compute**
 
-1. Athena
-2. Artemis/Apollo
+1. [Athena](athena.md)
+2. [Artemis/Apollo](devbox.md)
+
 
