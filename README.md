@@ -29,6 +29,10 @@ Please be advised that when launching your container from an image the first
 time, please name your container, e.g. `user_pycuda` so you are able to find
 your containers easily using the `nvidia-docker ps -a | grep user`.
 
+3. Who is Jovyan??
+
+[Official answer](https://en.wikipedia.org/wiki/Jovian_(fiction))
+
 ### Network Access
 
 You need to be connected to the SUTD network to access any compute resources. If you are outside school, you may use the official school VPN.
