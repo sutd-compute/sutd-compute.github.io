@@ -5,10 +5,10 @@ Supercomputing resources at SUTD - [Main Website](https://computing.sutd.edu.sg/
 
 **GPU Compute**
 
-1. [Athena](athena.md)
-2. [Artemis/Apollo](devbox.md)
+1. [Artemis/Apollo](devbox.md)
+2. [Athena](athena.md)
 
-**Using Docker
+**Using Docker**
 
 1. [Basic Docker Guide](dockerguide.md)
 2. [Advanced Docker Guide](advdockerguide.md)
