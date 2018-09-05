@@ -16,7 +16,7 @@ Supercomputing resources at SUTD - [Main Website](https://computing.sutd.edu.sg/
 
 ## Frequently Asked Questions
 
-### Usage
+### Athena
 
 1. Can I `sudo apt-get`?
 
@@ -29,7 +29,15 @@ Please be advised that when launching your container from an image the first
 time, please name your container, e.g. `user_pycuda` so you are able to find
 your containers easily using the `nvidia-docker ps -a | grep user`.
 
-3. Who is Jovyan??
+### Apollo/Artemis
+
+1. What is the difference between Athena and Apollo/Artemis
+
+On Apollo/Artemis you get a user-friendly interface to spawn Jupyter Notebook for you to run iterative experiments on consumer-grade GPUs. This is recommended for beginners.
+
+On Athena (DGX-1) you can run heavier workloads, but you need to be comfortable with the command line and Docker.
+
+2. Who is Jovyan??
 
 [Official answer](https://en.wikipedia.org/wiki/Jovian_(fiction))
 

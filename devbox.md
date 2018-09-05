@@ -1,7 +1,5 @@
 # User Guide for DevBox (Apollo/Artemis)
 
-[Link to briefing slides](https://docs.google.com/presentation/d/15b_r9AnETZ2Odiwv6FiapjR7DOePb3nIDLEFtr1kaRs/edit?usp=sharing)
+For now, please refer to the briefing slides:
 
-```
-TODO
-```
+[Link to briefing slides](https://docs.google.com/presentation/d/15b_r9AnETZ2Odiwv6FiapjR7DOePb3nIDLEFtr1kaRs/edit?usp=sharing)
