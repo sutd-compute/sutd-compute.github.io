@@ -1,5 +1,16 @@
 # Supercomputing @ SUTD
-Supercomputing resources at SUTD - [Main Website](https://computing.sutd.edu.sg/)
+Supercomputing resources at SUTD - [**computing.sutd.edu.sg**](https://computing.sutd.edu.sg/)
+
+**JupyterHub** - User Friendly GPU Compute
+
+* JupyterHub nodes: [Apollo](http://10.12.97.79:30002/hub/login) and [Artemis](http://10.12.97.79:30001/hub/login)
+* JupyterHub [Usage Dashboard](http://10.12.97.79:30009/d/BbkYN82mz/devbox-dashboard)
+* [User Guide](devbox.md)
+
+**Hermes** - HPC Cloud Service
+
+* [Hermes User Guide](https://computing.sutd.edu.sg/resources/hermes/hermes-user-guide/)
+* [CloudStack Login](https://hermes.sutd.edu.sg/client/)
 
 ## User Guides
 
@@ -16,6 +27,16 @@ Supercomputing resources at SUTD - [Main Website](https://computing.sutd.edu.sg/
 
 ## Frequently Asked Questions
 
+### Apollo/Artemis
+
+1. What is the difference between Athena and Apollo/Artemis
+
+On Apollo/Artemis you get a user-friendly interface to spawn Jupyter Notebook for you to run iterative experiments on consumer-grade GPUs. This is recommended for beginners.
+
+On Athena (DGX-1) you can run heavier workloads, but you need to be comfortable with the command line and Docker.
+
+2. Who is Jovyan??
+
 ### Athena
 
 1. Can I `sudo apt-get`?
@@ -28,16 +49,6 @@ do not use the `sudo` command outside of your **own** container.
 Please be advised that when launching your container from an image the first
 time, please name your container, e.g. `user_pycuda` so you are able to find
 your containers easily using the `nvidia-docker ps -a | grep user`.
-
-### Apollo/Artemis
-
-1. What is the difference between Athena and Apollo/Artemis
-
-On Apollo/Artemis you get a user-friendly interface to spawn Jupyter Notebook for you to run iterative experiments on consumer-grade GPUs. This is recommended for beginners.
-
-On Athena (DGX-1) you can run heavier workloads, but you need to be comfortable with the command line and Docker.
-
-2. Who is Jovyan??
 
 [Official answer](https://en.wikipedia.org/wiki/Jovian_(fiction))
 

@@ -22,6 +22,14 @@ If you are unable to spin up a server on one of the nodes, please use the other.
 
 ## Additional Information
 
+**Network speed**
+
+Network speed may be slower than you might expect. This is expected behavior on the school network.
+
+**Storage**
+
+We do not guarentee the long-term integrity of your files stored on Apollo and Artemis. As this project is still in pilot/POC phase, we plan to make major changes to the storage solution in the future. Where your files may be affected, we will aim to inform you in advance.
+
 **Software stack**
 
 * [Kubernetes](https://kubernetes.io/)
