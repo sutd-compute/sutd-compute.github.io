@@ -37,6 +37,8 @@ On Athena (DGX-1) you can run heavier workloads, but you need to be comfortable 
 
 2. Who is Jovyan??
 
+[Official answer](https://en.wikipedia.org/wiki/Jovian_(fiction))
+
 ### Athena
 
 1. Can I `sudo apt-get`?
@@ -49,8 +51,6 @@ do not use the `sudo` command outside of your **own** container.
 Please be advised that when launching your container from an image the first
 time, please name your container, e.g. `user_pycuda` so you are able to find
 your containers easily using the `nvidia-docker ps -a | grep user`.
-
-[Official answer](https://en.wikipedia.org/wiki/Jovian_(fiction))
 
 ### Network Access
 
