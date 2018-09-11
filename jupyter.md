@@ -17,6 +17,8 @@ This is the UI which you use to browse your Notebook's filesystem and interact w
 
 You can create a new Jupyter Notebook with a **Python 3 kernel** by selecting 'New' > 'Python 3'. You will then be presented with the Notebook UI. 
 
+You can run `!nvidia-smi` to check if GPUs are accesible from the notebook.
+
 ![notebook](images/jupyter_notebook.jpg)
 
 ## Addtional Tips
