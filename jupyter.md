@@ -27,3 +27,6 @@ You can run `!nvidia-smi` to check if GPUs are accesible from the notebook.
 TODO
 ```
 
+**JupyterLab**
+
+You can use JupyterLab instead of Jupyter Notebook. Simply replace `tree?` in the URL with `lab`.
