@@ -6,6 +6,8 @@ For now, please refer to the briefing slides:
 
 [Link to briefing slides](https://docs.google.com/presentation/d/15b_r9AnETZ2Odiwv6FiapjR7DOePb3nIDLEFtr1kaRs/edit?usp=sharing)
 
+[Jupyter Notebook User Guide](jupyter.md)
+
 Special notes regarding resource allocation:
 
 * Server QoS is `Burstable`, meaning your notebook server will be allowed to exceed RAM allocation if the system allows. However, if there is a lack of extra RAM, your notebook server will be killed

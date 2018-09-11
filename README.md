@@ -6,6 +6,7 @@ Supercomputing resources at SUTD - [**computing.sutd.edu.sg**](https://computing
 * JupyterHub nodes: [Apollo](http://10.12.97.79:30002/hub/login) and [Artemis](http://10.12.97.79:30001/hub/login)
 * JupyterHub [Usage Dashboard](http://10.12.97.79:30009/d/BbkYN82mz/devbox-dashboard)
 * [User Guide](devbox.md)
+* [Jupyter Notebook User Guide](jupyter.md)
 
 **Hermes** - HPC Cloud Service
 
