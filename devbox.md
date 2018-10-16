@@ -15,12 +15,12 @@ Special notes regarding resource allocation:
 
 ## Quick Links (School Network Only)
 
-* Artemis: [JupyterHub](http://10.12.97.79:30001/hub/login)
-* Apollo: [JupyterHub](http://10.12.97.79:30002/hub/login)
+* Artemis: [JupyterHub](http://10.16.74.79:30001/hub/login)
+* Apollo: [JupyterHub](http://10.16.74.79:30002/hub/login)
 
 If you are unable to spin up a server on one of the nodes, please use the other. You may check usage on the dashboard to see if one node has less users.
 
-* [Usage Dashboard](http://10.12.97.79:30009/d/BbkYN82mz/devbox-dashboard)
+* [Usage Dashboard](http://10.16.74.79:30009/d/BbkYN82mz/devbox-dashboard)
 
 ## Additional Information
 
@@ -37,5 +37,3 @@ We do not guarentee the long-term integrity of your files stored on Apollo and A
 * [Kubernetes](https://kubernetes.io/)
 * [Kubeflow](https://www.kubeflow.org/)
 * [JupyterHub](https://github.com/jupyterhub/jupyterhub) - Multi-user Jupyter Notebook server
-
-Hardware: [NVIDIA DIGITS DevBox](https://developer.nvidia.com/devbox)
