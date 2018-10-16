@@ -3,8 +3,8 @@ Supercomputing resources at SUTD - [**computing.sutd.edu.sg**](https://computing
 
 **JupyterHub** - User Friendly GPU Compute
 
-* JupyterHub nodes: [Apollo](http://10.12.97.79:30002/hub/login) and [Artemis](http://10.12.97.79:30001/hub/login)
-* JupyterHub [Usage Dashboard](http://10.12.97.79:30009/d/BbkYN82mz/devbox-dashboard)
+* JupyterHub nodes: [Apollo](http://10.16.74.79:30002/hub/login) and [Artemis](http://10.16.74.79:30001/hub/login)
+* JupyterHub [Usage Dashboard](http://10.16.74.79:30009/d/BbkYN82mz/devbox-dashboard)
 * [User Guide](devbox.md)
 * [Jupyter Notebook User Guide](jupyter.md)
 
@@ -27,6 +27,12 @@ Supercomputing resources at SUTD - [**computing.sutd.edu.sg**](https://computing
 
 
 ## Frequently Asked Questions
+
+### Network Access
+
+You need to be connected to the SUTD network to access any compute resources. If you are outside school, you may use the official school VPN.
+
+To be able to use VPN, download the VPN from [SUTD Downloads](https://downloads.sutd.edu.sg/cgi-bin/). Install then sign in to SecurePulse to get connected to VPN.
 
 ### Apollo/Artemis
 
@@ -52,9 +58,3 @@ do not use the `sudo` command outside of your **own** container.
 Please be advised that when launching your container from an image the first
 time, please name your container, e.g. `user_pycuda` so you are able to find
 your containers easily using the `nvidia-docker ps -a | grep user`.
-
-### Network Access
-
-You need to be connected to the SUTD network to access any compute resources. If you are outside school, you may use the official school VPN.
-
-To be able to use VPN, download the VPN from [SUTD Downloads](https://downloads.sutd.edu.sg/cgi-bin/). Install then sign in to SecurePulse to get connected to VPN.
