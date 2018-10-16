@@ -1,30 +1,25 @@
-# Supercomputing @ SUTD
-Supercomputing resources at SUTD - [**computing.sutd.edu.sg**](https://computing.sutd.edu.sg/)
+[**Home**](README.md) | [DevBox](devbox.md) | [Athena](athena.md) | [Supercomputing@SUTD](https://computing.sutd.edu.sg/)
 
-**JupyterHub** - User Friendly GPU Compute
+## User Guides
+
+**GPU Compute**
 
 * JupyterHub nodes: [Apollo](http://10.16.74.79:30002/hub/login) and [Artemis](http://10.16.74.79:30001/hub/login)
 * JupyterHub [Usage Dashboard](http://10.16.74.79:30009/d/BbkYN82mz/devbox-dashboard)
-* [User Guide](devbox.md)
+* [DevBox User Guide](devbox.md)
 * [Jupyter Notebook User Guide](jupyter.md)
+
+* [Athena (DGX-1)](athena.md)
 
 **Hermes** - HPC Cloud Service
 
 * [Hermes User Guide](https://computing.sutd.edu.sg/resources/hermes/hermes-user-guide/)
 * [CloudStack Login](https://hermes.sutd.edu.sg/client/)
 
-## User Guides
-
-**GPU Compute**
-
-1. [Artemis/Apollo](devbox.md)
-2. [Athena](athena.md)
-
 **Using Docker**
 
 1. [Basic Docker Guide](dockerguide.md)
 2. [Advanced Docker Guide](advdockerguide.md)
-
 
 ## Frequently Asked Questions
 
