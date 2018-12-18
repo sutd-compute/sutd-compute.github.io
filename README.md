@@ -41,6 +41,12 @@ On Athena (DGX-1) you can run heavier workloads, but you need to be comfortable 
 
 [Official answer](https://en.wikipedia.org/wiki/Jovian_(fiction))
 
+3. Why you don't let me have root inside container?
+
+The general suggestion is to create the expectation of users getting root access as it will lead to possible security issues in the future, hence leading to crackdown which will cause more displeasure. Rather than let users have root we will work to include required system packages included inside the provided container. Feature requests can be filed at [tlkh/deeplearning-lab](https://github.com/tlkh/deeplearning-lab).
+
+[Debate](https://github.com/kubeflow/kubeflow/issues/300)
+
 ### Athena
 
 1. Can I `sudo apt-get`?
